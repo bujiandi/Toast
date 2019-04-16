@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,7 +25,6 @@
 		394AC9311FA2B97F007841D0 /* TableContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394AC9301FA2B97F007841D0 /* TableContainer.swift */; };
 		394AC9331FA2C49F007841D0 /* CornerEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394AC9321FA2C49F007841D0 /* CornerEffectView.swift */; };
 		396EADA62040059C00295046 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 396EADA52040059C00295046 /* arrow@2x.png */; };
-		3972B3141F45CF9900344A35 /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 3972B3121F45CF9900344A35 /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		398D73BB1F9D7B0D006CB934 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398D73BA1F9D7B0D006CB934 /* CalendarController.swift */; };
 		398D73BE1F9D9569006CB934 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398D73BD1F9D9569006CB934 /* DateCell.swift */; };
 		398D73C01F9DBA41006CB934 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398D73BF1F9DBA41006CB934 /* CalendarView.swift */; };
@@ -80,6 +79,7 @@
 		43632C2D219D054300F7D943 /* UIKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43632C28219D054300F7D943 /* UIKeyboard.swift */; };
 		43632C2E219D054300F7D943 /* UIKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43632C29219D054300F7D943 /* UIKeyboardView.swift */; };
 		43632C30219D08AE00F7D943 /* UIKeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43632C2F219D08AE00F7D943 /* UIKeyboardCell.swift */; };
+		4377D65422655DE8003589A9 /* Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 4377D65222655DE8003589A9 /* Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		438D0B68219EBA7100790A2B /* UIButton+Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D0B67219EBA7100790A2B /* UIButton+Event.swift */; };
 		43B1121821997BCA007C6CCB /* UIResponder+First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B1121721997BCA007C6CCB /* UIResponder+First.swift */; };
 /* End PBXBuildFile section */
@@ -104,8 +104,6 @@
 		394AC9321FA2C49F007841D0 /* CornerEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerEffectView.swift; sourceTree = "<group>"; };
 		396EADA52040059C00295046 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		3972B30F1F45CF9900344A35 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3972B3121F45CF9900344A35 /* Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
-		3972B3131F45CF9900344A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		398D73BA1F9D7B0D006CB934 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
 		398D73BD1F9D9569006CB934 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
 		398D73BF1F9DBA41006CB934 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -160,6 +158,8 @@
 		43632C28219D054300F7D943 /* UIKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKeyboard.swift; sourceTree = "<group>"; };
 		43632C29219D054300F7D943 /* UIKeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKeyboardView.swift; sourceTree = "<group>"; };
 		43632C2F219D08AE00F7D943 /* UIKeyboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKeyboardCell.swift; sourceTree = "<group>"; };
+		4377D65222655DE8003589A9 /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		4377D65322655DE8003589A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		438D0B67219EBA7100790A2B /* UIButton+Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Event.swift"; sourceTree = "<group>"; };
 		43B1121721997BCA007C6CCB /* UIResponder+First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+First.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,6 +203,7 @@
 		3972B3051F45CF9900344A35 = {
 			isa = PBXGroup;
 			children = (
+				4377D65122655DE8003589A9 /* Support Files */,
 				3972B3111F45CF9900344A35 /* Toast */,
 				3972B3101F45CF9900344A35 /* Products */,
 			);
@@ -238,7 +239,6 @@
 				39DF2CB01F7B45330050B57F /* Animate */,
 				39DF2CBD1F7B45340050B57F /* ToastManager */,
 				39DF2CC31F7B45340050B57F /* ToastTask */,
-				39DF2CAE1F7B44B70050B57F /* Suppert Files */,
 			);
 			path = Toast;
 			sourceTree = "<group>";
@@ -299,15 +299,6 @@
 				39CE872C20EB7D2700AEEE57 /* WKEncoderValueContainer.swift */,
 			);
 			path = Web;
-			sourceTree = "<group>";
-		};
-		39DF2CAE1F7B44B70050B57F /* Suppert Files */ = {
-			isa = PBXGroup;
-			children = (
-				3972B3121F45CF9900344A35 /* Toast.h */,
-				3972B3131F45CF9900344A35 /* Info.plist */,
-			);
-			path = "Suppert Files";
 			sourceTree = "<group>";
 		};
 		39DF2CB01F7B45330050B57F /* Animate */ = {
@@ -418,6 +409,15 @@
 			path = Keyboard;
 			sourceTree = "<group>";
 		};
+		4377D65122655DE8003589A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4377D65222655DE8003589A9 /* Toast.h */,
+				4377D65322655DE8003589A9 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
 		438D0B66219EBA5B00790A2B /* Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,7 +441,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3972B3141F45CF9900344A35 /* Toast.h in Headers */,
+				4377D65422655DE8003589A9 /* Toast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,7 +483,7 @@
 				};
 			};
 			buildConfigurationList = 3972B3091F45CF9900344A35 /* Build configuration list for PBXProject "Toast" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -706,7 +706,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -724,10 +725,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Toast/Suppert Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appfenfen.Toast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -746,14 +751,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Toast/Suppert Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Support Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appfenfen.Toast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
